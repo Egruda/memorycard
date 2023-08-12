@@ -1,0 +1,55 @@
+#root {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #ffcb05;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.card {
+    background-color: #CC0000;
+    padding: 25px;
+    box-shadow: rgba(204, 0, 0, 0.5) 5px 5px 5px;
+}
+
+.points {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 5rem;
+}
+
+#root > p{
+    text-align: center;
+}
+
+.points {
+    background-color: #CC0000;
+    padding: 15px 75px;
+    color: white;
+    margin-top: 30px;
+    box-shadow: rgba(204, 0, 0, 0.5) 5px 5px 5px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
